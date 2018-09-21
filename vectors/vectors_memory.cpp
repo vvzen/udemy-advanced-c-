@@ -34,6 +34,7 @@ int main(){
     std::cout << "capacity: " << numbers.capacity() << std::endl;
     
     // remove all the elements in the vector
+    // capacity remains the same
     numbers.clear();
     std::cout << "cleared vector"<< std::endl;
     std::cout << "size: " << numbers.size() << std::endl;
