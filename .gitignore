@@ -2,6 +2,7 @@
 .vscode
 
 # CMAKE
+CMakeCache.txt
 MakeCache.txt
 CMakeFiles
 CMakeScripts
