@@ -69,7 +69,8 @@ int main(){
     // FIFO: first in first out
     std::queue<Test> test_queue;
 
-    // When we add this objects to the stack, they are copied and then destroyed
+    // When we add this objects to the queue, they are copied and then destroyed
+    // Queues are pretty similar to the stacks
     test_queue.push(Test("Mike"));
     test_queue.push(Test("John"));
     test_queue.push(Test("Sue"));
